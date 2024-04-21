@@ -1,0 +1,21 @@
+Objective:
+---------
+To reproduce negetive stock entry issue.
+
+
+Test Steps:
+------------ 
+
+Create a new product 'X' in system.
+Create stock for product 'X' using purchase invoice or opening stock entry.
+Create a new batch without specifying batch number using Opening Stock Entry.
+Create sales invoice for product 'X' with all available stock using batchless batch.
+Generate closing stock reports.
+Specify or rename batch name for batchless batch in Opening Stock Entry and try to save changes.
+
+Expected Result:
+
+Application should not allow to eidt and save Opening stock entry by specifying new batch name.
+
+
+

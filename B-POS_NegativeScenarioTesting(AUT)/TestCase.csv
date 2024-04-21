@@ -1,0 +1,72 @@
+Chrome_TC_01:Opening_Stock_Entry_Negative_Stock_Testing
+Test Step,Test Input,Expected Result
+Launch Application,https:\sachinhq.pos.bharuwa.com:2029,Application Should be Launched Successfully
+Provide Input for Username/Email Field,patanjali_user,System should allow user to enter Username/Email
+Provide Input for Password Field,Bharuwa@1234,System should allow user to enter Password
+Click on Sign In Button,click on : Sign In Button,System should redirect user to Home page.
+Click on masters link,click on : masters link,System should display master related options under the ribbion menu.
+Mouse Over on Inventory Info tab and Click on Product master link,,System should navigate user to Product master page.
+Click on Econm Input box,click on : Econm Input box,System should allow user to enter data in Econm field.
+Click on Add Product,click on : Add Product,System should navigate user to Product Master > General screen.
+Provide Input for Product Name Field,Orient Charger 20V,System should allow user to enter Product Name
+Click on GST & Charges Tab,click on : GST & Charges Tab,System should switch user to GST & Charges Tab.
+Select Required ID from GST Rate DropDown,Value of Index : 1,Selected ID value should displayed in the Drop down Box
+Provide Input for HSN code Field,10031,System should allow user to enter HSN code
+Click on Price Tab,click on : Price Tab,System should switch user to PRICE TAB.
+Provide Input for MRP price Field,125,System should allow user to enter MRP price
+Provide Input for Landing Cost Field,110,System should allow user to enter Landing Cost
+Click on Save button,click on : Save button,System should create a new product with specified details in database.
+Click on Transactions module link,click on : Transactions module link,System should display transaction inner menu.
+Mouse Over on System should navigate user to purchase invoice screen. and Click on Menu Item Text,,
+Press ENTER key ,ENTER Key,System should diaplay window with existing suppliers
+Provide Input for Enter keyword to search Field,ANMOL ENTERPRISES,System should allow user to enter Enter keyword to search
+Press ENTER key ,ENTER Key,System should select user specified supplier.
+Provide Input for Invoice number Field,TI1138AAA2324,System should allow user to enter Invoice number
+Press ENTER key ,ENTER Key,System should display window with existing items.
+Provide Input for Item Name Field,Orient Charger 20V,System should allow user to enter Item Name
+Press ENTER key ,ENTER Key,System should select specified item successfully
+Provide Input for Batch number Field,Batch_01,System should allow user to enter Batch number
+Provide Input for Manufacturing Date Field,09/10/2023,System should allow user to enter Manufacturing Date
+Provide Input for Expiry Date Field,09/10/2029,System should allow user to enter Expiry Date
+Provide Input for Item quantity Field,10,System should allow user to enter Item quantity
+Press ENTER key ,ENTER Key,Prices and discounts should populate appropriately in respective fields.
+Click on System should elobrate Details Tab,click on : System should elobrate Details Tab,
+Provide Input for Invoice amount Field,1133,System should allow user to enter Invoice amount
+Click on Save button,click on : Save button,System should create purchase invoice with user specified details.
+Mouse Over on Inventory dropdown and Click on System should navigate user to Opening stock entry screen.,,
+Press ENTER key ,ENTER Key,System should display Items Pop_up window.
+Provide Input for Item Name Field,Orient Charger 20V,System should allow user to enter Item Name
+Press ENTER key ,ENTER Key,System should populate details of selected Product.
+Provide Input for Manufacturing Date Field,09/10/2023,System should allow user to enter Manufacturing Date
+Provide Input for Expiry Date Field,09/10/2029,System should allow user to enter Expiry Date
+Provide Input for quantity Field,10,System should allow user to enter quantity
+Press ENTER key ,ENTER Key,Prices and discounts should populate appropriately in respective fields.
+Press ENTER key ,ENTER Key,System should display Suppliers pop-up window
+Provide Input for Supplier Name,ASHUTOSH MARKETING,Entered Supplier Name Successfully
+Click on Save button,click on : Save button,System should create new batch for selected item or items.
+Click on Transactions module link,click on : Transactions module link,System should display transaction inner menu.
+Mouse Over on System should navigate user to Sales Invoice screen. and Click on Menu Item Text,,
+Press ENTER key ,ENTER Key,customers pop-up window should display.
+Provide Input for Customer name,Dileep,Entered Customer name Successfully
+Press ENTER key ,ENTER Key,Items pop-up window should display.
+Provide Input for Item Name Field,Orient Charger 20V,System should allow user to enter Item Name
+Press ENTER key ,ENTER Key,System should selected product specified by user.
+Press ENTER key ,ENTER Key,System should display all existing batch numbers for specified product.
+Double-click on Second_Batch,Double-click on: Second_Batch,System should select preferred batch by user from listed batches.
+Provide Input for available stock,10,Entered available stock Successfully
+Click on Save button,click on : Save button,System should populate cash tender window.
+Press ENTER key ,ENTER Key,Sales invoice total should populate in cash tender fields.
+Press ENTER key ,ENTER Key,System should create sales invoice with user specified details.
+Click on Reports Link,click on : Reports Link,System should navigate user to Reports module.
+Mouse Over on System should display all sub-reports under Analysis Reports and Click on Menu Item Text,,
+Click on Closing stock report link,click on : Closing stock report link,System should navigate user to Closing stock report screen.
+Click on Date Picker,click on : Date Picker,System should display Calander
+Click on Last 7 days filter button,click on : Last 7 days filter button,System should select past 7 days in date selection calander.
+Click on Run Button,click on : Run Button,System should fetch and display reports in specified date range.
+Provide Input for Item Name Field,Orient Charger 20V,System should allow user to enter Item Name
+Click on Transaction link,click on : Transaction link,Transaction
+Mouse Over on Inventory dropdown and Click on System should navigate to Opening stock entry screen.,,
+Click on System should display all available Opening stock entry records.,click on : System should display all available Opening stock entry records.,
+Double-click on Opening Stock latest record,Double-click on: Opening Stock latest record,System should redirect to edit screen of selected record.
+Provide Input for Batch number Field,Batch_02,System should allow user to enter Batch number
+Click on Save Button,click on : Save Button,System should not allow user to save Opening Stock Entry record.

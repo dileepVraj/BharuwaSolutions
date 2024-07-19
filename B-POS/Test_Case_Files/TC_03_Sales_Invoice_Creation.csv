@@ -1,0 +1,24 @@
+Chrome_TC_03:Sales_Invoice_Creation
+Test Step,Test Input,Expected Result
+Launch Application,https://sachinhq.pos.bharuwa.com:8055/,Application Should be Launched Successfully
+Provide Input for Username/Email Field,patanjali_user,System should allow user to enter Username/Email
+Provide Input for Password Field,Bharuwa@1234,System should allow user to enter Password
+Click on Sign In Button,click on : Sign In Button,System should redirect user to Home page.
+Click on Transactions module link,click on : Transactions module link,System should display transaction inner menu.
+Mouse Over on System should navigate user to Sales Invoice screen. and Click on Menu Item Text,,
+Press ENTER key ,ENTER Key,customers pop-up window should display.
+Provide Input for Customer name Field,Atharav,System should allow user to enter Customer name
+Press ENTER key ,ENTER Key,Should select preferred customer for sales invoice.
+Click on F10,Clicked on: F10,F10 modal window should be open.
+Select Required ID from Bill series DropDown,Value of Index : 0,Selected ID value should displayed in the Drop down Box
+Click on F10,Clicked on: F10,F10 modal window should close.
+Press ENTER key ,ENTER Key,Items pop-up window should display.
+Provide Input for Item Name Field,Orient _Ceiling Fan,System should allow user to enter Item Name
+Press ENTER key ,ENTER Key,System should selected product specified by user.
+Press ENTER key ,ENTER Key,System should display all existing batch numbers for specified product.
+Double-click on Second_Batch,Double-click on: Second_Batch,System should select preferred batch by user from listed batches.
+Provide Input for Quantity,1,Entered Quantity Successfully
+Click on Save button,click on : Save button,System should populate Available schems window
+Press ENTER key ,ENTER Key,Sales invoice total should populate in cash tender fields.
+Press ENTER key ,ENTER Key,System should create sales invoice with user specified details.
+Accept  Alert ,Click on  Alert,

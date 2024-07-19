@@ -1,0 +1,19 @@
+Chrome_TC_01:Purchase Order
+Test Step,Test Input,Expected Result
+Launch Application,https://sachinhq.pos.bharuwa.com:8055/,Application Should be Launched Successfully
+Provide Input for Username/Email Field,patanjali_user,System should allow user to enter Username/Email
+Provide Input for Password Field,Bharuwa@1234,System should allow user to enter Password
+Click on Sign In Button,click on : Sign In Button,System should redirect user to Home page.
+Click on Transactions module link,click on : Transactions module link,System should display transaction inner menu.
+Mouse Over on Purchase Sub Module and Click on Purchase Order link,,Application should navigate to Purchase order screen. 
+Press ENTER key ,ENTER Key,Application should populate suppliers modal window with all available suppliers.
+Provide Input for Suppliers keyword to search Field,Tata Motors,System should allow user to enter Suppliers keyword to search
+Press ENTER key ,ENTER Key,Should select preferred supplier to create purchase order.
+Click on Hide Details button,Clicked on: Hide Details button,Application should close suppliers details window.
+Press ENTER key ,ENTER Key,Application should display Items modal window with all available items.
+Provide Input for Item search field Field,Tata Nexon,System should allow user to enter Item search field
+Press ENTER key ,ENTER Key,Should select preferred Item to create purchase order.
+Provide Input for Item Quantity Field,1,System should allow user to enter Item Quantity
+Press ENTER key ,ENTER Key,Should select populate MRP and Cost price of selected Item accordin to quantity entered.
+Click on Save,Clicked on: Save,Application should successfully create Purchase order with selected supplier and Items.
+Accept  Alert ,Click on  Alert,

@@ -1,0 +1,22 @@
+Chrome_TC_01:Purchase_Invoice_Creation
+Test Step,Test Input,Expected Result
+Launch Application,https://sachinhq.pos.bharuwa.com:8055/,Application Should be Launched Successfully
+Provide Input for Username/Email Field,patanjali_user,System should allow user to enter Username/Email
+Provide Input for Password Field,Bharuwa@1234,System should allow user to enter Password
+Click on Sign In Button,click on : Sign In Button,System should redirect user to Home page.
+Click on Transactions module link,click on : Transactions module link,System should display transaction inner menu.
+Mouse Over on System should navigate user to purchase invoice screen. and Click on Menu Item Text,,
+Press ENTER key ,ENTER Key,System should diaplay window with existing suppliers
+Provide Input for Enter keyword to search Field,ANMOL ENTERPRISES,System should allow user to enter Enter keyword to search
+Press ENTER key ,ENTER Key,System should select user specified supplier.
+Provide Input for Invoice number Field,PI228AAA2425,System should allow user to enter Invoice number
+Press ENTER key ,ENTER Key,System should display window with existing items.
+Provide Input for Item Name Field,Orient Air Cooler,System should allow user to enter Item Name
+Press ENTER key ,ENTER Key,System should select specified item successfully
+Provide Input for Batch number Field,Batch_01,System should allow user to enter Batch number
+Provide Input for Manufacturing Date Field,09/10/2023,System should allow user to enter Manufacturing Date
+Provide Input for Expiry Date Field,09/10/2029,System should allow user to enter Expiry Date
+Provide Input for Item quantity Field,2,System should allow user to enter Item quantity
+Press ENTER key ,ENTER Key,Prices and discounts should populate appropriately in respective fields.
+Click on System should elobrate Details Tab,click on : System should elobrate Details Tab,
+Provide Input for Invoice amount Field,7210,System should allow user to enter Invoice amount

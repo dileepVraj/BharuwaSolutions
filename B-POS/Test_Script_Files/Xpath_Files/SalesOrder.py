@@ -1,0 +1,12 @@
+SalesOrder_hoverMenu_SalesHoverMenu = "//span[text()='Sales']"
+SalesOrder_link_SalesOrderLink = "//span[text()='Sales Order']"
+SalesOrder_selectionBox_Customers = "//input[@id='customerselectid']"
+SalesOrder_inputBox_customers_enterkeywordTosearch = "(//input[@placeholder='Enter keyword to search'])[1]"
+SalesOrder_selectionBox_ItemCode = "//input[@id='menucode0']"
+SalesOrder_inputBox_Items_EnterkeywordToSearch = "(//input[@placeholder='Enter keyword to search'])[1]"
+SalesOrder_inputBox_quantity = "//input[@id='quantity0']"
+SalesOrder_button_Save = "//button[text()[normalize-space()='F6 SAVE']]"
+SalesOrder_inputBox_AdvanceAmount = "(//label[text()='Advance Amount :']/following::input)[1]"
+SalesOrder_button_Advance_OK = "(//button[text()[normalize-space()='OK']])[3]"
+SalesOrder_button_print_cancel = "//button[text()[normalize-space()='[Esc]Cancel']]"
+

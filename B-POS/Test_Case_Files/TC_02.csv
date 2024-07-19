@@ -1,0 +1,20 @@
+Chrome_TC_02:Sales_Order_Creation
+Test Step,Test Input,Expected Result
+Launch Application,https://sachinhq.pos.bharuwa.com:8055/,Application Should be Launched Successfully
+Provide Input for Username/Email Field,patanjali_user,System should allow user to enter Username/Email
+Provide Input for Password Field,Bharuwa@1234,System should allow user to enter Password
+Click on Sign In Button,click on : Sign In Button,System should redirect user to Home page.
+Click on Transactions module link,click on : Transactions module link,System should display transaction inner menu.
+Mouse Over on Sales and Click on Sales Order,,Application should navigate user to Sales order screen.
+Press ENTER key ,ENTER Key,Application should display Customers modal window with available Customers.
+Provide Input for Customers modal window search field. Field,Atharav,System should allow user to enter Customers modal window search field.
+Press ENTER key ,ENTER Key,Should select preferred customer to create sales order.
+Press ENTER key ,ENTER Key,Application should display ITEMS modal window with all available items.
+Provide Input for Search of Items modal window. Field,Orient Air Cooler,System should allow user to enter Search of Items modal window.
+Press ENTER key ,ENTER Key,Application should select preferred item to create sales order.
+Provide Input for Quantity Field,1,System should allow user to enter Quantity
+Press ENTER key ,ENTER Key,Application should populate MRP and selling price of item.
+Click on Save,Clicked on: Save,application should display advance window to pay to advance payment.
+Provide Input for Advance amount Field,100,System should allow user to enter Advance amount
+Click on Sysetem should save sales order successfully and display print receipt modal window.,Clicked on: Sysetem should save sales order successfully and display print receipt modal window.,
+Click on print cacel button,Clicked on: print cacel button,Should close print receipt window.
